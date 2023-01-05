@@ -1,4 +1,4 @@
-from decouple import config
+# from decouple import config
 import requests
 import json
 
@@ -13,4 +13,4 @@ weather_data = json.loads(text)
 current_conditions = weather_data["currentConditions"]
 temperature = current_conditions["temp"]
 
-print(f'{temperature:.0f}°C')
+print(f' | Mae Chan {temperature:.0f}°C  |')
