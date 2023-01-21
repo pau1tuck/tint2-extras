@@ -13,4 +13,4 @@ weather_data = json.loads(text)
 current_conditions = weather_data["currentConditions"]
 temperature = current_conditions["temp"]
 
-print(f' | Mae Chan {temperature:.0f}°C  |')
+print(f' |  Chan Chawa {temperature:.0f}°C  |')
